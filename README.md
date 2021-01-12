@@ -59,7 +59,5 @@
       - Example: "wc < hello.txt"
       - Example: "wc < hello.txt > test.txt"
       - Example: "wc < hello.txt >> test.txt"
-      
-      
-  - 
+
       

@@ -1,4 +1,4 @@
-# WASH -- WAvySHell
+# WASH -- WAvy SHell
  
  All code in shell.c except for parsing code is written and coded by Ibrahim Munir
  

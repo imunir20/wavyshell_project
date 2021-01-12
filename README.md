@@ -4,7 +4,7 @@
  
  Credit for code beyond that mentioned above belongs to the GMU CS Department
  
- WASH is a custom shell and supports the following features:
+ WASH is a custom UNIX shell and supports the following features:
  
  - Job Control:
    - Jobs are either run in the foreground, where the user must wait for the job to finish executing  before starting another job/inputting a new command, foreground jobs can be interrupted by keyboard interactions

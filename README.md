@@ -10,6 +10,8 @@
    - Jobs are either run in the foreground, where the user must wait for the job to finish executing  before starting another job/inputting a new command, foreground jobs can be interrupted by keyboard interactions
    
    - Jobs can also be run in the background, so the user can run multiple jobs/commands at the same time; simply add a space and "&" to the end of the command to make it a background job
+   
+   - Background jobs are tracked through a linked list data structure, which adds and deletes nodes accordingly (e.g. if a background jobs finishes and terminates, it will also be removed from the linked list)
  
  
  - Non-built-in commands:

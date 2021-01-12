@@ -6,7 +6,7 @@
  
  WASH is a custom shell and supports the following features:
  
- - Job Control:
+ #- Job Control:
    - Jobs are either run in the foreground, where the user must wait for the job to finish executing  before starting another job/inputting a new command, foreground jobs can be interrupted by keyboard interactions
    
    - Jobs can also be run in the background, so the user can run multiple jobs/commands at the same time; simply add a space and "&" to the end of the command to make it a background job

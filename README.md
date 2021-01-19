@@ -33,20 +33,20 @@ To run the program, simply type and enter the name of the executable, default ex
  
  Built-in commands
  -
-    - help, quit, fg, bg, jobs, kill
+   - help, quit, fg, bg, jobs, kill
     
-    - help: Displays basic help information about shell
+   - help: Displays basic help information about shell
     
-    - quit: Exits the shell program
+   - quit: Exits the shell program
     
-    - fg [JobID]: Brings a job to foreground and continues it, if not already foreground and not already running
+   - fg [JobID]: Brings a job to foreground and continues it, if not already foreground and not already running
 
-    - bg [JobID]: Continues a job in the background
+   - bg [JobID]: Continues a job in the background
     
-    - jobs: Displays the current background jobs by JobID number
+   - jobs: Displays the current background jobs by JobID number
     
-    - kill [SIGNAL] [PID]: Sends specified signal to process with specified PID
-       - Example: "kill 20 8608" -- Send a SIGTSTP signal to process with PID 8608
+   - kill [SIGNAL] [PID]: Sends specified signal to process with specified PID
+      - Example: "kill 20 8608" -- Send a SIGTSTP signal to process with PID 8608
   \
   \
   ![](images/helpquitcmddemo.png)
@@ -93,16 +93,16 @@ To run the program, simply type and enter the name of the executable, default ex
 
   File Redirection
   -
-    - Redirect files with a command
-    - "<" will direct the following file's input into the command (if the input file doesn't exist, the shell will print an error message and prompt for another command)
-    - ">" will erase the following file's contents and direct the output of the command into the file (if the output file doesn't exist, the shell will create it)
-    - ">>" will append the output of the command into the following file (if the output file doesn't exist, the shell will create it)
-      - Example: "wc < hello.txt"
-      - Example: "wc < hello.txt > test.txt"
-      - Example: "wc < hello.txt >> test.txt"
-      \
-      \
-      ![](images/fileredirectiondemo.png)
+   - Redirect files with a command
+   - "<" will direct the following file's input into the command (if the input file doesn't exist, the shell will print an error message and prompt for another command)
+   - ">" will erase the following file's contents and direct the output of the command into the file (if the output file doesn't exist, the shell will create it)
+   - ">>" will append the output of the command into the following file (if the output file doesn't exist, the shell will create it)
+     - Example: "wc < hello.txt"
+     - Example: "wc < hello.txt > test.txt"
+     - Example: "wc < hello.txt >> test.txt"
+     \
+     \
+     ![](images/fileredirectiondemo.png)
       
 
       

@@ -71,11 +71,22 @@ To run the program, simply type and enter the name of the executable, default ex
      - NOTE: my_echo is test program included in the repository, it returns the first command line argument as its exit status
  \
  \
- ![][images/contop1demo.png]
+ ![](images/contop1demo.png)
+ ![](images/contop2demo.png)
+ ![](images/contop3demo.png)
+ \
+ \
+ 
  
  - Keyboard Interactions:
    - CTRL-C: Terminates the current foreground job, if there is one
    - CTRL-Z: Stops the current foreground job if there is one, and moves it to the background
+   \
+   \
+   ![](images/ctrlcdemo.png)
+   ![](images/ctrlzdemo.png)
+   \
+   \
    
 
   - File Redirection:
@@ -86,5 +97,9 @@ To run the program, simply type and enter the name of the executable, default ex
       - Example: "wc < hello.txt"
       - Example: "wc < hello.txt > test.txt"
       - Example: "wc < hello.txt >> test.txt"
+      \
+      \
+      ![](images/fileredirectiondemo.png)
+      
 
       

@@ -60,8 +60,8 @@ To run the program, simply type and enter the name of the executable, default ex
   - File Redirection:
     - Redirect files with a command
     - "<" will direct the following file's input into the command
-    - ">" will erase the following file's contents and direct the output of the command into the file
-    - ">>" will append the output of the command into the following file
+    - ">" will erase the following file's contents and direct the output of the command into the file (if the output file doesn't exist, the shell will create it)
+    - ">>" will append the output of the command into the following file (if the output file doesn't exist, the shell will create it)
       - Example: "wc < hello.txt"
       - Example: "wc < hello.txt > test.txt"
       - Example: "wc < hello.txt >> test.txt"

@@ -10,7 +10,8 @@ To run the program, simply type and enter the name of the executable, default ex
 
  WASH is a custom UNIX shell and supports the following features:
  
- - Job Control:
+ Job Control
+ -
    - Jobs are either run in the foreground, where the user must wait for the job to finish executing  before starting another job/inputting a new command, foreground jobs can be interrupted by keyboard interactions
    
    - Jobs can also be run in the background, so the user can run multiple jobs/commands at the same time; simply add a space and "&" to the end of the command to make it a background job
@@ -30,7 +31,8 @@ To run the program, simply type and enter the name of the executable, default ex
  \
  \
  
- - Built-in commands:
+ Built-in commands
+ -
     - help, quit, fg, bg, jobs, kill
     
     - help: Displays basic help information about shell
@@ -55,7 +57,8 @@ To run the program, simply type and enter the name of the executable, default ex
   
   
   
- - Control operators:
+ Control operators
+ -
    - Control operators (&&, ||) can be used to connect two commands in one command line
    - Depending on the control operator used and the exit status of the first command, the second command will be either executed or skipped
    - AND (&&) operators will continue if the first command returns an exit status of 0
@@ -76,7 +79,8 @@ To run the program, simply type and enter the name of the executable, default ex
  \
  
  
- - Keyboard Interactions:
+ Keyboard Interactions
+ -
    - CTRL-C: Terminates the current foreground job, if there is one
    - CTRL-Z: Stops the current foreground job if there is one, and moves it to the background
    \
@@ -87,7 +91,8 @@ To run the program, simply type and enter the name of the executable, default ex
    \
    
 
-  - File Redirection:
+  File Redirection
+  -
     - Redirect files with a command
     - "<" will direct the following file's input into the command (if the input file doesn't exist, the shell will print an error message and prompt for another command)
     - ">" will erase the following file's contents and direct the output of the command into the file (if the output file doesn't exist, the shell will create it)

@@ -49,7 +49,7 @@ To run the program, simply type and enter the name of the executable, default ex
        - Example: "kill 20 8608" -- Send a SIGTSTP signal to process with PID 8608
   \
   \
-  ![](images/helpquitdemo.png)
+  ![](images/helpquitcmddemo.png)
   ![](images/bicmddemo.png)
   \
   \

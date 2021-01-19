@@ -24,16 +24,9 @@ To run the program, simply type and enter the name of the executable, default ex
  Non-built-in commands
  -
    - Examples include "ls", "pwd", "cat [file name]", etc.
-     
-       
+ \
+ \
  ![](images/nbicmddemo.png)
-   
-   
-   
-   
-   
-   
-   
  
  Built-in commands
  -
@@ -55,10 +48,6 @@ To run the program, simply type and enter the name of the executable, default ex
   \
   ![](images/helpquitcmddemo.png)
   ![](images/bicmddemo.png)
-  \
-  \
-  
-  
   
   
  Control operators
@@ -79,8 +68,6 @@ To run the program, simply type and enter the name of the executable, default ex
  ![](images/contop1demo.png)
  ![](images/contop2demo.png)
  ![](images/contop3demo.png)
- \
- \
  
  
  Keyboard Interactions
@@ -91,8 +78,6 @@ To run the program, simply type and enter the name of the executable, default ex
    \
    ![](images/ctrlcdemo.png)
    ![](images/ctrlzdemo.png)
-   \
-   \
    
 
   File Redirection

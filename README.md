@@ -17,10 +17,20 @@ To run the program, simply type and enter the name of the executable, default ex
    
    - Background jobs are tracked through a linked list data structure, which adds and deletes nodes accordingly (e.g. if a background jobs finishes and terminates, it will also be removed from the linked list)
  
+ \
+ \
+ ![](jobcontroldemo.png)
+ \
+ \
  
  - Non-built-in commands:
    - Examples include "ls", "pwd", "cat [file name]", etc.
  
+ \
+ \
+ ![](nbicmddemo.png)
+ \
+ \
  
  - Built-in commands:
     - help, quit, fg, bg, jobs, kill
@@ -37,7 +47,16 @@ To run the program, simply type and enter the name of the executable, default ex
     
     - kill [SIGNAL] [PID]: Sends specified signal to process with specified PID
        - Example: "kill 20 8608" -- Send a SIGTSTP signal to process with PID 8608
-       
+  \
+  \
+  ![](helpquitdemo.png)
+  ![](bicmddemo.png)
+  \
+  \
+  
+  
+  
+  
  - Control operators:
    - Control operators (&&, ||) can be used to connect two commands in one command line
    - Depending on the control operator used and the exit status of the first command, the second command will be either executed or skipped
@@ -50,7 +69,9 @@ To run the program, simply type and enter the name of the executable, default ex
      - Example: "my_echo 0 || my_echo 99" -- OR List will stop
      - Example: "my_echo 39 || my_echo 23 &" -- OR List will continue, run in background
      - NOTE: my_echo is test program included in the repository, it returns the first command line argument as its exit status
- 
+ \
+ \
+ ![][contop1demo.png]
  
  - Keyboard Interactions:
    - CTRL-C: Terminates the current foreground job, if there is one

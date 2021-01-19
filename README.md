@@ -48,7 +48,7 @@ To run the program, simply type and enter the name of the executable, default ex
      - Example: "my_echo 99 || my_echo 0" -- OR List will continue
      - Example: "my_echo 99 && my_echo 0" -- AND List will stop
      - Example: "my_echo 0 || my_echo 99" -- OR List will stop
-     - Example: "my_echo 39 || my_echo 23" -- OR List will continue, run in background
+     - Example: "my_echo 39 || my_echo 23 &" -- OR List will continue, run in background
      - NOTE: my_echo is test program included in the repository, it returns the first command line argument as its exit status
  
  

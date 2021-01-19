@@ -25,10 +25,11 @@ To run the program, simply type and enter the name of the executable, default ex
  Non-built-in commands
  -
    - Examples include "ls", "pwd", "cat [file name]", etc.
- \
- \
+     
+       
  ![](images/nbicmddemo.png)
- \
+   
+   
  
  Built-in commands
  -

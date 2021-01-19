@@ -20,7 +20,6 @@ To run the program, simply type and enter the name of the executable, default ex
  \
  \
  ![](images/jobcontroldemo.png)
- \
  
  Non-built-in commands
  -
@@ -29,12 +28,11 @@ To run the program, simply type and enter the name of the executable, default ex
        
  ![](images/nbicmddemo.png)
    
-     
-       
-         
-           
-             
-             
+   
+   
+   
+   
+   
    
  
  Built-in commands

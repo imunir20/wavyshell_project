@@ -18,13 +18,13 @@ To run the program, simply type and enter the name of the executable, default ex
    
    - Background jobs are tracked through a linked list data structure, which adds and deletes nodes accordingly (e.g. if a background jobs finishes and terminates, it will also be removed from the linked list)
  \
+ \
  ![](images/jobcontroldemo.png)
  \
  
  Non-built-in commands
  -
    - Examples include "ls", "pwd", "cat [file name]", etc.
- 
  \
  \
  ![](images/nbicmddemo.png)

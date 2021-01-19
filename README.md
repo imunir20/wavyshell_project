@@ -19,7 +19,7 @@ To run the program, simply type and enter the name of the executable, default ex
  
  \
  \
- ![](jobcontroldemo.png)
+ ![](images/jobcontroldemo.png)
  \
  \
  
@@ -28,7 +28,7 @@ To run the program, simply type and enter the name of the executable, default ex
  
  \
  \
- ![](nbicmddemo.png)
+ ![](images/nbicmddemo.png)
  \
  \
  
@@ -49,8 +49,8 @@ To run the program, simply type and enter the name of the executable, default ex
        - Example: "kill 20 8608" -- Send a SIGTSTP signal to process with PID 8608
   \
   \
-  ![](helpquitdemo.png)
-  ![](bicmddemo.png)
+  ![](images/helpquitdemo.png)
+  ![](images/bicmddemo.png)
   \
   \
   
@@ -71,7 +71,7 @@ To run the program, simply type and enter the name of the executable, default ex
      - NOTE: my_echo is test program included in the repository, it returns the first command line argument as its exit status
  \
  \
- ![][contop1demo.png]
+ ![][images/contop1demo.png]
  
  - Keyboard Interactions:
    - CTRL-C: Terminates the current foreground job, if there is one

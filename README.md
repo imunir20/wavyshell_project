@@ -19,8 +19,9 @@ To run the program, simply type and enter the name of the executable, default ex
  \
  ![](images/jobcontroldemo.png)
  \
- \
- - Non-built-in commands:
+ 
+ Non-built-in commands
+ -
    - Examples include "ls", "pwd", "cat [file name]", etc.
  
  \

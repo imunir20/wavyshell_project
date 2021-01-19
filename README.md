@@ -54,7 +54,7 @@ To run the program, simply type and enter the name of the executable, default ex
  
  - Keyboard Interactions:
    - CTRL-C: Terminates the current foreground job, if there is one
-   - CTRL-Z: Stops the current foreground job, moves it to the background job, if there is one
+   - CTRL-Z: Stops the current foreground job if there is one, and moves it to the background
    
 
   - File Redirection:

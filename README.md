@@ -1,10 +1,5 @@
 # WASH -- WAvy SHell
- 
- All code in shell.c except for parsing code is written and coded by Ibrahim Munir
- 
- Credit for code beyond that mentioned above belongs to the GMU CS Department
- 
- 
+  
 To run the program, simply type and enter the name of the executable, default executable name will be "shell"
 
 
